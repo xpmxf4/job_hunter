@@ -4,16 +4,21 @@ import styled from "styled-components";
 const Title = () => {
   return (
     <Wrapper>
-      <img src="../../../images/KNU_Logo.jpg" alt="KNU_Logo" width={30} />
-      <span>KNU Crawling</span>
+      <PageTitle>Job Hunting</PageTitle>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.div`
-  border: 1px solid black;
-  font-size: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
   color: black;
+`;
+
+const PageTitle = styled.span`
+  font-weight: bolder;
 `;
 
 export default Title;

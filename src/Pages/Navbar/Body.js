@@ -7,5 +7,6 @@ const Body = () => {
 export default Body;
 
 const Wrapper = styled.div`
+  border: 1px solid red;
   margin-top: 80px;
 `;

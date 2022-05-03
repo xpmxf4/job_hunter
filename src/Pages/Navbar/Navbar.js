@@ -2,13 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import Title from "./Title";
 import Body from "./Body";
+import Footer from "./Footer";
 
 const Navbar = () => {
   return (
     <Wrapper>
       <Title />
       <Body />
-      <Footer>Footer</Footer>
+      <Footer />
     </Wrapper>
   );
 };
@@ -27,4 +28,3 @@ const Wrapper = styled.div`
   background-color: #fdfdfd;
 `;
 
-const Footer = styled.div``;
