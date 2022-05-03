@@ -1,12 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import Title from "./Title";
+import Body from "./Body";
+import Footer from "./Footer";
 
 const Navbar = () => {
   return (
     <Wrapper>
-      <Title>Title</Title>
-      <Body>Body</Body>
-      <Footer>Footer</Footer>
+      <Title />
+      <Body />
+      <Footer />
     </Wrapper>
   );
 };
@@ -20,12 +23,8 @@ const Wrapper = styled.div`
   top: 0;
   width: 26%;
   height: 100%;
+  padding: 60px;
   flex-direction: column;
   background-color: #fdfdfd;
 `;
 
-const Title = styled.div``;
-
-const Body = styled.div``;
-
-const Footer = styled.div``;
