@@ -8,4 +8,5 @@ export default Footer;
 
 const Wrapper = styled.div`
   border: 1px solid blue;
+  margin-top: 600px;
 `;

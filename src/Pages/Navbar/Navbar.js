@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Title from "./Title";
-import Body from "./Body";
+import Body from "./Body/Body";
 import Footer from "./Footer";
 
 const Navbar = () => {
